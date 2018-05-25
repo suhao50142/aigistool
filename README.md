@@ -1,0 +1,10 @@
+aigis工具1.0.0-beta 
+======== 
+**electron框架aigis游戏的wiki客户端** 
+1)能及时爬wiki数据 
+2)有各种排序功能 
+3)能通过黑话搜索(需要用tag设置) 
+4)有三种主题色，可以调节透明度 
+5)可以调节下载重连次数 
+![](https://raw.githubusercontent.com/suhao50142/aigistool/master/images-folder/1.jpg) 
+![](https://raw.githubusercontent.com/suhao50142/aigistool/master/images-folder/2.jpg) 
