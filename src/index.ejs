@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>app</title>
+    <% if (htmlWebpackPlugin.options.nodeModules) { %>
+      <script>
+        require('module').globalPaths.push('<%= htmlWebpackPlugin.options.nodeModules.replace(/\\/g, '\\\\') %>')
+      </script>
+    <% } %>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script>
+      if (process.env.NODE_ENV !== 'development') window.__static = require('path').join(require('path').resolve(__dirname,'../../../../'), '/data').replace(/\\/g, '\\\\')
+    </script>
+  </body>
+</html>
